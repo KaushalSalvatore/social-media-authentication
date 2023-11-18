@@ -126,41 +126,16 @@ SOCIALACCOUNT_PROVIDERS = {
     }
 ```
 
-
 ```bash
 INSTALLED_APPS = [
         'crispy_forms'
 ]
 ```
 
+####  Add this in project file urls.py
 
 ```bash
+urlpatterns = [
+    path('accounts/', include('allauth.urls')),
+]
 ```
-
-
-```bash
-```
-
-
-```bash
-```
-
-
-```bash
-```
-
-
-```bash
-```
-
-
-```bash
-```
-
-
-```bash
-```
-
-
-
-
